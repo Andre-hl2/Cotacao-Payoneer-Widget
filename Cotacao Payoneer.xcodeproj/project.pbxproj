@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B0BDA8D1EF06DA700A26C4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0BDA8C1EF06DA700A26C4C /* AppDelegate.swift */; };
+		1B0BDA8F1EF06DA700A26C4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0BDA8E1EF06DA700A26C4C /* ViewController.swift */; };
+		1B0BDA911EF06DA700A26C4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B0BDA901EF06DA700A26C4C /* Assets.xcassets */; };
+		1B0BDA941EF06DA700A26C4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B0BDA921EF06DA700A26C4C /* Main.storyboard */; };
+		1B3334561EF07E7D0041B68A /* ListRowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3334551EF07E7D0041B68A /* ListRowViewController.swift */; };
+		1BDFCC781EF0722B00064755 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BDFCC771EF0722B00064755 /* NotificationCenter.framework */; };
+		1BDFCC7D1EF0722B00064755 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDFCC7C1EF0722B00064755 /* TodayViewController.swift */; };
+		1BDFCC821EF0722B00064755 /* TodayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BDFCC801EF0722B00064755 /* TodayViewController.xib */; };
+		1BDFCC851EF0722B00064755 /* ListRowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BDFCC831EF0722B00064755 /* ListRowViewController.xib */; };
+		1BDFCC891EF0722B00064755 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1BDFCC871EF0722B00064755 /* InfoPlist.strings */; };
+		1BDFCC8C1EF0722B00064755 /* Cotacao Payoneer Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1BDFCC761EF0722B00064755 /* Cotacao Payoneer Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1BDFCC8A1EF0722B00064755 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B0BDA811EF06DA700A26C4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BDFCC751EF0722B00064755;
+			remoteInfo = "Cotacao Payoneer Widget";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1BF685551EF06F9E002258EB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1BDFCC8C1EF0722B00064755 /* Cotacao Payoneer Widget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1B0BDA891EF06DA700A26C4C /* Cotacao Payoneer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cotacao Payoneer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B0BDA8C1EF06DA700A26C4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B0BDA8E1EF06DA700A26C4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B0BDA901EF06DA700A26C4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B0BDA931EF06DA700A26C4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B0BDA951EF06DA700A26C4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B3334551EF07E7D0041B68A /* ListRowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListRowViewController.swift; sourceTree = "<group>"; };
+		1BDFCC761EF0722B00064755 /* Cotacao Payoneer Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Cotacao Payoneer Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BDFCC771EF0722B00064755 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		1BDFCC7B1EF0722B00064755 /* Cotacao_Payoneer_Widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cotacao_Payoneer_Widget.entitlements; sourceTree = "<group>"; };
+		1BDFCC7C1EF0722B00064755 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		1BDFCC811EF0722B00064755 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/TodayViewController.xib; sourceTree = "<group>"; };
+		1BDFCC841EF0722B00064755 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ListRowViewController.xib; sourceTree = "<group>"; };
+		1BDFCC861EF0722B00064755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BDFCC881EF0722B00064755 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B0BDA861EF06DA700A26C4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BDFCC731EF0722B00064755 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BDFCC781EF0722B00064755 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B0BDA801EF06DA700A26C4C = {
+			isa = PBXGroup;
+			children = (
+				1B0BDA8B1EF06DA700A26C4C /* Cotacao Payoneer */,
+				1BDFCC791EF0722B00064755 /* Cotacao Payoneer Widget */,
+				1BF6853B1EF06F9E002258EB /* Frameworks */,
+				1B0BDA8A1EF06DA700A26C4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B0BDA8A1EF06DA700A26C4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B0BDA891EF06DA700A26C4C /* Cotacao Payoneer.app */,
+				1BDFCC761EF0722B00064755 /* Cotacao Payoneer Widget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B0BDA8B1EF06DA700A26C4C /* Cotacao Payoneer */ = {
+			isa = PBXGroup;
+			children = (
+				1B0BDA8C1EF06DA700A26C4C /* AppDelegate.swift */,
+				1B0BDA8E1EF06DA700A26C4C /* ViewController.swift */,
+				1B0BDA901EF06DA700A26C4C /* Assets.xcassets */,
+				1B0BDA921EF06DA700A26C4C /* Main.storyboard */,
+				1B0BDA951EF06DA700A26C4C /* Info.plist */,
+			);
+			path = "Cotacao Payoneer";
+			sourceTree = "<group>";
+		};
+		1BDFCC791EF0722B00064755 /* Cotacao Payoneer Widget */ = {
+			isa = PBXGroup;
+			children = (
+				1B3334551EF07E7D0041B68A /* ListRowViewController.swift */,
+				1BDFCC7C1EF0722B00064755 /* TodayViewController.swift */,
+				1BDFCC801EF0722B00064755 /* TodayViewController.xib */,
+				1BDFCC831EF0722B00064755 /* ListRowViewController.xib */,
+				1BDFCC861EF0722B00064755 /* Info.plist */,
+				1BDFCC871EF0722B00064755 /* InfoPlist.strings */,
+				1BDFCC7A1EF0722B00064755 /* Supporting Files */,
+			);
+			path = "Cotacao Payoneer Widget";
+			sourceTree = "<group>";
+		};
+		1BDFCC7A1EF0722B00064755 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BDFCC7B1EF0722B00064755 /* Cotacao_Payoneer_Widget.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1BF6853B1EF06F9E002258EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BDFCC771EF0722B00064755 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B0BDA881EF06DA700A26C4C /* Cotacao Payoneer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B0BDA981EF06DA700A26C4C /* Build configuration list for PBXNativeTarget "Cotacao Payoneer" */;
+			buildPhases = (
+				1B0BDA851EF06DA700A26C4C /* Sources */,
+				1B0BDA861EF06DA700A26C4C /* Frameworks */,
+				1B0BDA871EF06DA700A26C4C /* Resources */,
+				1BF685551EF06F9E002258EB /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BDFCC8B1EF0722B00064755 /* PBXTargetDependency */,
+			);
+			name = "Cotacao Payoneer";
+			productName = "Cotacao Payoneer";
+			productReference = 1B0BDA891EF06DA700A26C4C /* Cotacao Payoneer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1BDFCC751EF0722B00064755 /* Cotacao Payoneer Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BDFCC8D1EF0722B00064755 /* Build configuration list for PBXNativeTarget "Cotacao Payoneer Widget" */;
+			buildPhases = (
+				1BDFCC721EF0722B00064755 /* Sources */,
+				1BDFCC731EF0722B00064755 /* Frameworks */,
+				1BDFCC741EF0722B00064755 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cotacao Payoneer Widget";
+			productName = "Cotacao Payoneer Widget";
+			productReference = 1BDFCC761EF0722B00064755 /* Cotacao Payoneer Widget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B0BDA811EF06DA700A26C4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = SukafuSoftworks;
+				TargetAttributes = {
+					1B0BDA881EF06DA700A26C4C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2PY9785G78;
+						ProvisioningStyle = Automatic;
+					};
+					1BDFCC751EF0722B00064755 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2PY9785G78;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1B0BDA841EF06DA700A26C4C /* Build configuration list for PBXProject "Cotacao Payoneer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B0BDA801EF06DA700A26C4C;
+			productRefGroup = 1B0BDA8A1EF06DA700A26C4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B0BDA881EF06DA700A26C4C /* Cotacao Payoneer */,
+				1BDFCC751EF0722B00064755 /* Cotacao Payoneer Widget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B0BDA871EF06DA700A26C4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B0BDA911EF06DA700A26C4C /* Assets.xcassets in Resources */,
+				1B0BDA941EF06DA700A26C4C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BDFCC741EF0722B00064755 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BDFCC821EF0722B00064755 /* TodayViewController.xib in Resources */,
+				1BDFCC891EF0722B00064755 /* InfoPlist.strings in Resources */,
+				1BDFCC851EF0722B00064755 /* ListRowViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B0BDA851EF06DA700A26C4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B0BDA8F1EF06DA700A26C4C /* ViewController.swift in Sources */,
+				1B0BDA8D1EF06DA700A26C4C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BDFCC721EF0722B00064755 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BDFCC7D1EF0722B00064755 /* TodayViewController.swift in Sources */,
+				1B3334561EF07E7D0041B68A /* ListRowViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BDFCC8B1EF0722B00064755 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BDFCC751EF0722B00064755 /* Cotacao Payoneer Widget */;
+			targetProxy = 1BDFCC8A1EF0722B00064755 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B0BDA921EF06DA700A26C4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B0BDA931EF06DA700A26C4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1BDFCC801EF0722B00064755 /* TodayViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BDFCC811EF0722B00064755 /* Base */,
+			);
+			name = TodayViewController.xib;
+			sourceTree = "<group>";
+		};
+		1BDFCC831EF0722B00064755 /* ListRowViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BDFCC841EF0722B00064755 /* Base */,
+			);
+			name = ListRowViewController.xib;
+			sourceTree = "<group>";
+		};
+		1BDFCC871EF0722B00064755 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BDFCC881EF0722B00064755 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B0BDA961EF06DA700A26C4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B0BDA971EF06DA700A26C4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		1B0BDA991EF06DA700A26C4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2PY9785G78;
+				INFOPLIST_FILE = "Cotacao Payoneer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SukafuSoftworks.Cotacao-Payoneer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1B0BDA9A1EF06DA700A26C4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2PY9785G78;
+				INFOPLIST_FILE = "Cotacao Payoneer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SukafuSoftworks.Cotacao-Payoneer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1BDFCC8E1EF0722B00064755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Cotacao Payoneer Widget/Cotacao_Payoneer_Widget.entitlements";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2PY9785G78;
+				INFOPLIST_FILE = "Cotacao Payoneer Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SukafuSoftworks.Cotacao-Payoneer.Cotacao-Payoneer-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1BDFCC8F1EF0722B00064755 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Cotacao Payoneer Widget/Cotacao_Payoneer_Widget.entitlements";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2PY9785G78;
+				INFOPLIST_FILE = "Cotacao Payoneer Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SukafuSoftworks.Cotacao-Payoneer.Cotacao-Payoneer-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B0BDA841EF06DA700A26C4C /* Build configuration list for PBXProject "Cotacao Payoneer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B0BDA961EF06DA700A26C4C /* Debug */,
+				1B0BDA971EF06DA700A26C4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B0BDA981EF06DA700A26C4C /* Build configuration list for PBXNativeTarget "Cotacao Payoneer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B0BDA991EF06DA700A26C4C /* Debug */,
+				1B0BDA9A1EF06DA700A26C4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BDFCC8D1EF0722B00064755 /* Build configuration list for PBXNativeTarget "Cotacao Payoneer Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BDFCC8E1EF0722B00064755 /* Debug */,
+				1BDFCC8F1EF0722B00064755 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B0BDA811EF06DA700A26C4C /* Project object */;
+}
