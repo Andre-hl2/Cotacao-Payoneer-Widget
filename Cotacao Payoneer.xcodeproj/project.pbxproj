@@ -434,6 +434,7 @@
 		1BDFCC8E1EF0722B00064755 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_ENTITLEMENTS = "Cotacao Payoneer Widget/Cotacao_Payoneer_Widget.entitlements";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 2PY9785G78;
@@ -449,6 +450,7 @@
 		1BDFCC8F1EF0722B00064755 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_ENTITLEMENTS = "Cotacao Payoneer Widget/Cotacao_Payoneer_Widget.entitlements";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 2PY9785G78;
