@@ -31,5 +31,4 @@ class ListRowViewController: NSViewController {
         FieldName.stringValue = quotation.name!
         FieldValue.stringValue = quotation.value!
     }
-
 }

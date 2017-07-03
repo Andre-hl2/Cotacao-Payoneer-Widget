@@ -82,29 +82,26 @@ class TodayViewController: NSViewController, NCWidgetProviding, NCWidgetListView
         // refreshed. Pass NCUpdateResultNoData to indicate that nothing has changed
         // or NCUpdateResultNewData to indicate that there is new data since the
         // last invocation of this method.
+        let json = parseJSON(inputData: getJSON(urlToRequest: "https://scrooge-mcduck-b.firebaseio.com/currency.json/"))
         
-        let json = parseJSON(inputData: getJSON(urlToRequest: "https://scrooge-mcduck-b.firebaseio.com/.json"))
-        
-        let currencyDic = json.value(forKey: "currency") as! NSDictionary
-        let currencyValue = currencyDic.value(forKey: "currency") as! Double
+        let currencyValue = json.value(forKey: "currency") as! Double
         quotations[0].value = "R$ " + String(format: "%.2f", currencyValue)
         
-        let displayDic = json.value(forKey: "display") as! NSDictionary
-        let transferValue = displayDic.value(forKey: "transfer") as! String
-        let withdrawValue = displayDic.value(forKey: "withdraw") as! String
-        let paymentValue = displayDic.value(forKey: "payment") as! String
-        let updateValue = displayDic.value(forKey: "updated_on") as! String
+        let transferValue = currencyValue * 0.98
+        let withdrawValue = currencyValue * 0.965
+        let paymentValue = currencyValue * 0.97
         
-        quotations[1].value = "R$ " + transferValue
-        quotations[2].value = "R$ " + paymentValue
-        quotations[3].value = "R$ " + withdrawValue
+        quotations[1].value = "R$ " + String(format: "%.2f", transferValue)
+        quotations[2].value = "R$ " + String(format: "%.2f", withdrawValue)
+        quotations[3].value = "R$ " + String(format: "%.2f", paymentValue)
+        
+        let updateValue = json.value(forKey: "timestamp") as! Int64
+        let updateDate = Date(timeIntervalSince1970: TimeInterval(updateValue))
         
         let dateFor : DateFormatter = DateFormatter()
-        dateFor.dateFormat = "dd-MM-yyyy HH:mm:ss"
-        let resDate = dateFor.date(from: updateValue)
         
         dateFor.dateFormat = "HH:mm:ss"
-        quotations[4].value  = dateFor.string(from: resDate!)
+        quotations[4].value  = dateFor.string(from: updateDate)
 
         let actualDate = Date()
         quotations[5].value = dateFor.string(from: actualDate)
